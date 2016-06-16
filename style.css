@@ -1,0 +1,164 @@
+body{
+  font-family: 'Roboto', sans-serif;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+
+}
+
+
+.menu:hover {
+    background-color: rgba(0,51,51,.8);
+}
+
+#page1{
+  height: 1000px;
+  background-image: url(./images/intro.jpg);
+  position: absolute;
+  width: 100vw;
+}
+
+#page2{
+  height: 1000px;
+}
+
+#page3{
+  border: 40px solid rgba(204,102,0,.4);
+  height: 1000px;
+  background-image: url("http://i.giphy.com/cHKc68x0VT4bK.gif");
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#page4{
+  height: 1000px;
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  width: 100%
+}
+
+
+
+ul {
+    width: 100%;
+    position: fixed;
+    list-style-type: none;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0,140,140,.8);
+    z-index: 2
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*#scroller-1 {
+  position: relative;
+
+}
+*/
+/*#scroller-2 {
+  display: inline;
+  font-size: 90px;
+  text-align: center;
+  position: relative;
+  margin:  0 auto;
+  width: 50%;
+  height: 50%;
+  float: right
+}*/
+
+.scroller-parent {
+  font-size: 0px;
+  text-align: center;
+  margin-top: 250px
+}
+
+.scroller-parent span {
+  font-size: 90px;
+  padding: 2px 10px;
+  color: rgba(0,51,51,.8);
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+
+.container {
+  height: 1000px;
+  width: 30vw;
+  padding: 20px 60px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  opacity: 10%
+}
+
+.inner-container {
+  background-color: rgba(204,102,0,.2);
+  width: 100%;
+  height: 40%;
+  top: 25%;
+  left: 15%;
+  right: 25%;
+  position: relative
+}
+
+.bio {
+  padding: 10%;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.mom {
+  text-align: center;
+  font-style: italic;
+  color: rgba(0,51,51,.8);
+  font-size: 25px;
+  padding-top: 70px
+}
+
+.connect {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 60px;
+  padding: 80px
+}
+
+.social-icons {
+  opacity: .5;
+  width: 40px;
+  height: auto;
+  padding: 10px;
+}
+
+.social-icons:hover{
+  opacity: .8;
+}
+
+.frame{
+  background-image: url('images/trevor.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
