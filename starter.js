@@ -1,4 +1,10 @@
 $(function(){
+
+  $('.climbrContainer').on('click', function() {
+    window.location.href= 'https://radiant-harbor-81376.herokuapp.com/';
+  });
+
+
   $('.smooth').on('click', function() {
     $.smoothScroll({   ///thanks codeplanet.io for the code that automatically scrolls to sections from the navbar
       scrollElement: $('body'),
@@ -8,7 +14,7 @@ $(function(){
 
 
 
-var scroller = ['a creator.','a designer.','a builder.','a problem solver.','a ninja.'];
+var scroller = ['a creator.','a designer.','a builder.','a problem solver.','a ninja.', 'a breakfast burrito'];
 
 function cycleScroller(arr){
   $('#scroller-2').text(arr[0]);

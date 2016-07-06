@@ -24,21 +24,28 @@ body{
 }
 
 #page3{
-  border: 40px solid rgba(204,102,0,.4);
   height: 1000px;
   background-image: url("http://i.giphy.com/cHKc68x0VT4bK.gif");
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
+  z-index: 1
 }
 
 #page4{
   height: 1000px;
+  background-image: url(./images/bridge.jpg);
+  background-size: cover;
 }
 
 nav{
   position: fixed;
   top: 0px;
   width: 100%
+}
+
+h2{
+  color: white;
+  font-size: 38px
 }
 
 
@@ -102,7 +109,6 @@ li a {
 .container {
   height: 1000px;
   width: 30vw;
-  padding: 20px 60px;
   color: white;
   background-color: rgba(0,0,0,0.4);
   opacity: 10%
@@ -148,7 +154,7 @@ li a {
   padding: 10px;
 }
 
-.social-icons:hover{
+.social-icons: hover{
   opacity: .8;
 }
 
@@ -162,3 +168,36 @@ li a {
   height: 200px;
 }
 
+.projectsBG{
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background-color: black;
+  opacity: .6;
+  margin: 10% 10%;
+  color: white
+}
+
+#projectsBox{
+  opacity: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+#climbrLogo{
+  position: absolute;
+  height: auto;
+  width: 270px;
+
+
+}
+
+#climbrScreenshot{
+  height: auto;
+  width: 400px
+}
+
+.climbrContainer{
+  width: 400px;
+  margin: 10px auto;
+}
